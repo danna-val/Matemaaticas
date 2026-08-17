@@ -1,8 +1,56 @@
-body{
-    
-    background: pink;
+body {
+     background-image: linear-gradient(45deg, rgb(222, 114, 114), rgb(221, 120, 216));
+
 }
-h1{
+
+.calculadora {
+    height: 70vh;
+    width: 80vh;
+    background-color: rgb(178, 35, 190);
+    padding: 30px;
+    border-radius: 15px;
     text-align: center;
-    font-size: 60px ;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.fraccion {
+    display: inline-flex;
+    flex-direction: column;
+    width: 120px;
+    margin: 20px;
+}
+
+.fraccion input {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.fraccion hr {
+    width: 30vh;
+    border: 1px solid black;
+    margin-left: -4vh;
+}
+
+select {
+    padding: 10px;
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#resultado {
+    font-size: 25px;
+    font-weight: bold;
 }
