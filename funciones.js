@@ -42,7 +42,5 @@ function calcular() {
         denominador = den1 * num2;
     }
 
-    let resultado = numerador / denominador;
-
-    document.getElementById("resultado").innerHTML = resultado;
+    document.getElementById("resultado").innerHTML = numerador +"/"+ denominador;
 }
