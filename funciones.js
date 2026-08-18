@@ -9,8 +9,7 @@ function calcular() {
     let operacion = document.getElementById("operacion").value;
 
     if (den1 === 0 || den2 === 0) {
-        document.getElementById("resultado").innerHTML =
-            "El denominador no puede ser 0";
+       alert("El denominador no puede ser 0");
         return;
     }
 
@@ -35,8 +34,7 @@ function calcular() {
     else if (operacion === "/") {
 
         if (num2 === 0) {
-            document.getElementById("resultado").innerHTML =
-                "No se puede dividir entre 0";
+            alert("No se puede dividir entre 0");
             return;
         }
 
