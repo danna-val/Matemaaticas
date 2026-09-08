@@ -1,0 +1,444 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MathSpace | Matemáticas</title>
+
+    <link rel="stylesheet" href="estilos.css">
+    <script src="funcion.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <div class="logo-icon">
+                <i class="fa-solid fa-square-root-variable"></i>
+            </div>
+
+            <div>
+                <h2>Math<span>Space</span></h2>
+                <small>Matemáticas</small>
+            </div>
+        </div>
+
+        <nav class="menu">
+
+            <a href="#inicio" class="menu-link active">
+                <i class="fa-solid fa-house"></i>
+                <span>Inicio</span>
+            </a>
+
+            <a href="#sobre-mi" class="menu-link">
+                <i class="fa-solid fa-user"></i>
+                <span>Sobre mí</span>
+            </a>
+
+            <a href="#algebra" class="menu-link">
+                <i class="fa-solid fa-x"></i>
+                <span>Fracciones</span>
+            </a>
+
+            <a href="#estadistica" class="menu-link">
+                <i class="fa-solid fa-chart-simple"></i>
+                <span>Ecuaciones</span>
+            </a>
+
+            <a href="#calculo" class="menu-link">
+                <i class="fa-solid fa-fa-video"></i>
+                <span>Video estadistico</span>
+            </a>
+
+            <a href="#recursos" class="menu-link">
+                <i class="fa-solid fa-book-open"></i>
+                <span>Recursos</span>
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <div class="quote">
+                <i class="fa-solid fa-quote-left"></i>
+
+                <p>
+                    "Las matemáticas son el lenguaje
+                    con el que describimos el universo."
+                </p>
+            </div>
+
+            <button id="themeButton" class="theme-button">
+                <i class="fa-solid fa-moon"></i>
+                <span>Modo oscuro</span>
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- ================= CONTENIDO ================= -->
+
+    <main class="main">
+
+        <!-- HEADER -->
+
+        <header class="topbar">
+
+            <button id="menuButton" class="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="breadcrumb">
+                <span>MathSpace</span>
+                <i class="fa-solid fa-chevron-right"></i>
+                <strong>Inicio</strong>
+            </div>
+
+            <div class="top-actions">
+
+                <button class="icon-button">
+                    <i class="fa-regular fa-bell"></i>
+                </button>
+
+                <div class="profile-mini">
+                    <div class="avatar">M</div>
+
+                    <div>
+                        <strong>Mi perfil</strong>
+                        <small>Estudiante</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- ================= INICIO ================= -->
+
+        <section id="inicio" class="section hero-section">
+
+            <div class="hero-content">
+
+                <div class="hero-text">
+
+                    <span class="badge">
+                        <i class="fa-solid fa-sparkles"></i>
+                        ESPACIO DE APRENDIZAJE
+                    </span>
+
+                    <h1>
+                        Descubre el lado
+                        <span>interesante</span>
+                        de las matemáticas.
+                    </h1>
+
+                    <p>
+                        Un espacio compartir conocimientos aprendidos en el tecnologo de Analisis y desarollo de software <br> Ficha: 3387498.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#algebra" class="primary-button">
+                            Explorar contenido
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#sobre-mi" class="secondary-button">
+                            Conóceme
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="math-card">
+
+                    <div class="math-card-top">
+                        <span>MATHEMATICAL SPACE</span>
+
+                        <i class="fa-solid fa-ellipsis"></i>
+                    </div>
+
+                    <div class="equation">
+                        f(x) = x² + 2x + 1
+                    </div>
+
+                    <div class="graph">
+
+                        <div class="grid-lines"></div>
+
+                        <svg viewBox="0 0 400 180">
+
+                            <path
+                                d="M20 150 Q120 20 200 90 Q280 160 380 25"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="4"
+                                stroke-linecap="round"
+                            />
+
+                        </svg>
+
+                    </div>
+
+                    <div class="math-result">
+                        <span>Resultado</span>
+                        <strong>(x + 1)²</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SOBRE MI ================= -->
+
+        <section id="sobre-mi" class="section">
+
+            <div class="section-heading">
+
+                <div>
+                    <span class="section-label">01 — PERFIL</span>
+
+                    <h2>Sobre mí</h2>
+
+                    <p>
+                        Conoce un poco sobre la persona detrás
+                        de este espacio matemático.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="about-container">
+
+                <div class="about-image">
+
+                    <div class="image-placeholder">
+
+                        <i class="fa-solid fa-user"></i>
+
+                        <span>Tu foto aquí</span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="small-title">
+                        HOLA, SOY
+                    </span>
+
+                    <h3>
+                        Danna Valentina Martinez Rojas
+                        <span>👋</span>
+                    </h3>
+
+                    <p>
+                        Actualmente estoy estudiando un Tecnólogo en Análisis y Desarrollo de Software, 
+                        donde estoy fortaleciendo mis conocimientos en programación, desarrollo web, 
+                        bases de datos y diseño de soluciones tecnológicas. 
+                        Me interesa seguir aprendiendo y aplicar estos conocimientos 
+                        en proyectos que combinen la tecnología con áreas como las matemáticas.
+                    </p>
+
+                    <p>
+                        En este espacio quiero compartir mis
+                        conocimientos, ejercicios, proyectos y
+                        recursos relacionados con el mundo de las
+                        matemáticas.
+                    </p>
+
+
+                    <div class="about-info">
+
+                        <div>
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Estudiante</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Colombia</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Programabora</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skills">
+
+                        <span>Álgebra</span>
+                        <span>Geometría</span>
+                        <span>Estadística</span>
+                        <span>Cálculo</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ALGEBRA ================= -->
+
+        <section id="algebra" class="section">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <span class="section-label">02 — ÁLGEBRA</span>
+
+                    <h2>Fracciones</h2>
+
+                    <p>
+                        Calculadora de Fracciones. Resuelve la fracción que necesites
+                    </p>
+
+                </div>
+
+                <span class="topic-number">01</span>
+
+            </div>
+
+
+            <div class="cards-grid">
+
+                <article class="topic-card">
+
+                    <h1>Calculadora de Fracciones</h1>
+
+        <div class="fraccion">
+            <input type="number" id="num1" placeholder="Numerador">
+            <hr>
+            <input type="number" id="den1" placeholder="Denominador">
+        </div>
+
+        <select id="operacion">
+            <option value="+">+</option>
+            <option value="-">−</option>
+            <option value="*">×</option>
+            <option value="/">÷</option>
+        </select>
+
+        <div class="fraccion">
+            <input type="number" id="num2" placeholder="Numerador">
+            <hr>
+            <input type="number" id="den2" placeholder="Denominador">
+        </div>
+
+        <button onclick="calcular()">Calcular</button>
+
+        <h2>Resultado:</h2>
+
+        <div id="resultado"></div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ESTADISTICA ================= -->
+
+      <section id="estadistica" class="section">
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-label">03 — ESTADÍSTICA</span>
+
+            <h2>Estadística</h2>
+
+            <p>
+                Analiza datos y encuentra información
+                útil a partir de ellos.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="statistics-layout">
+
+        <div class="statistics-card">
+
+            <div class="card-header">
+
+                <div>
+                    <span>ANÁLISIS DE DATOS</span>
+                    <h3>Distribución semanal</h3>
+                </div>
+
+                <i class="fa-solid fa-chart-column"></i>
+
+            </div>
+
+            <div class="chart">
+
+                <div class="chart-bar" style="height: 45%;">
+                    <span>L</span>
+                </div>
+
+                <div class="chart-bar" style="height: 70%;">
+                    <span>M</span>
+                </div>
+
+                <div class="chart-bar" style="height: 55%;">
+                    <span>X</span>
+                </div>
+
+                <div class="chart-bar" style="height: 85%;">
+                    <span>J</span>
+                </div>
+
+                <div class="chart-bar" style="height: 65%;">
+                    <span>V</span>
+                </div>
+
+                <div class="chart-bar" style="height: 40%;">
+                    <span>S</span>
+                </div>
+
+                <div class="chart-bar" style="height: 30%;">
+                    <span>D</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
